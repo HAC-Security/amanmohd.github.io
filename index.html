@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Holmes</title>
+    <link rel="stylesheet" text="type/css" href="anim.css"/>
+    <link rel="stylesheet" text="type/css" href="main.css"/>
+    <script type="text/javascript" src="anim.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <script type="text/javascript">function change(id, todo){
+  if(todo.toLowerCase() === "over"){
+    var toChange = document.getElementById(id);
+    toChange.style="color: #00aeff";
+  }else{
+    var toChange = document.getElementById(id);
+    toChange.style="color: #FFFFFF";
+  }
+}</script>
+    <nav style="border-bottom: 2px solid #00aeff;">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">MrHolmes<span style="color: #00aeff;">@arch</span></label>
+      <ul>
+        <li><a href="index.html" class="active" style="color: orangered !important;" id="home" >[Home]</a></li>
+        <li><a href="Articles.html" id="article" onmouseover="change('article','over')" onmouseout="change('article','out')">[Articles]</a></li>
+        <li><a href="Projects.html" id="project" onmouseover="change('project','over')" onmouseout="change('project','out')">[Projects]</a></li>
+        <li><a href="Novels.html" id="novel" onmouseover="change('novel','over')" onmouseout="change('novel','out')">[Novels]</a></li>
+    </ul>
+    </nav>
+    <div class="mainContainer">
+        <div class="terminallook">
+            <article>
+                <h4>[~]MrHolmes<span style="color: #00aeff;">@arch</span> <span style="float: right; width: 4.5%;font-size: 13.4px;">✖️</span></h4>
+                <p>
+                <span class="typewriter" style="font-size: 26px;">$&nbsp<a href="" class="typewrite" style="color: red !important;" data-period="2000" data-type='[ " whoami"]'>
+    <span class="wrap"></span>
+  </a>
+                <div class="incontento1">
+                    <p class="whoami">
+                        Currently I’m a final year student at Bachelor of Computer Applications Department of B.J.S. Rampuria Jain Collage.
+                        Following is what I think I know:<br>
+                        <i class="fas fa-arrow-right"></i> VAPT<br>
+                        <i class="fas fa-arrow-right"></i> Networking<br>
+                        <i class="fas fa-arrow-right"></i> Cloud<br>
+                        <i class="fas fa-arrow-right"></i> Linux<br>
+                        <i class="fas fa-arrow-right"></i> Web Application Penetration Testing<span class="blinkme">|</span><br>
+                    </p>
+                    <img src="Logo.png" width="30%">
+                </div>
+                <div style="padding:10px;">
+                    My main interests are Computer Security, Networking, Unix(One of the die-hard Arch-linux fan), programming in Python, Bash and many more.<br>
+                    When I am not doing that, I am either Playing CTFs, Hosting CTFs  or Hacking the Boxes at TryHackMe <a href="https://tryhackme.com/p/holmes"> <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></a> or HackTheBox <a href="https://www.hackthebox.eu/home/users/profile/309170"> <i class="fas fa-external-link-square-alt" aria-hidden="true"></i></a>.<br><br>
+                    I love to write scripts in Python.<br>
+                    I automate everything I can in python and bash! <br>
+                    In Free time? I read Novels.<br><br>
+
+                P.S. I am actively looking for cybersecurity and research internships.
+                </div>
+                </p>
+            </article>
+        </div>
+    </div>
+    <div class="subCont" style="margin-bottom: 100px; color: white;">
+      <div style="font-size: 8pt;"></br>
+        <h1>$&nbsp<a href="" class="typewrite" style="color: red !important;" data-period="2000" data-type='[ " cat contact.me"]'>
+<span class="wrap"></span>
+</a></h1></br>
+      </div>
+      <span class="blue">E-mail : <a style="color: white;" href="mailto:hp95565@gmail.com"></span>hp95565@gmail.com</br></a>
+      <span class="blue">Twitter : <a style="color: white;" href="http://twitter.com/__MrHolmes"></span>http://twitter.com/Its_holmes_</a></br>
+      <span class="blue">Instagram : <a style="color: white;" href="instagram://user?username=mr.holmes_"></span>http://instagram.com/mr.holmes_</a></br>
+      <span class="blue">LinkedIn : <a style="color: white;" href="https://www.linkedin.com/in/hardeep-singh-/"></span>https://www.linkedin.com/in/hardeep-singh-/</a></br>
+      <span class="blue">Github : <a style="color: white;" href="https://www.github.com/holmes-py"></span>https://www.github.com/holmes-py</a></br>
+    </div>
+    <footer class="mainFooter">
+        <p style="color: white;">Made with <span class="blinkme3">❤️</span> <a id = "footer" style="color: white;" onmouseover="change('footer','over')" onmouseout="change('footer','out')" href="https://holmes-py.github.io/">By Hardeep Singh</p></a>
+    </footer>
+  </body>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</html>
